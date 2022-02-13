@@ -20,12 +20,6 @@
     "@parcel/packager-raw-url": "^2.2.1",
     "@parcel/transformer-webmanifest": "^2.2.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tnguyen217/assessment1-tnguyen217.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tnguyen217/assessment1-tnguyen217/issues"
-  },
-  "homepage": "https://github.com/tnguyen217/assessment1-tnguyen217#readme"
+  "main": "index.js"
+  
 }
