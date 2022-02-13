@@ -23,10 +23,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tnguyen217/plushie.git"
+    "url": "git+https://github.com/tnguyen217/assessment1-tnguyen217.git"
   },
   "bugs": {
-    "url": "https://github.com/tnguyen217/plushie/issues"
+    "url": "https://github.com/tnguyen217/assessment1-tnguyen217/issues"
   },
-  "homepage": "https://github.com/tnguyen217/plushie#readme"
+  "homepage": "https://github.com/tnguyen217/assessment1-tnguyen217#readme"
 }
