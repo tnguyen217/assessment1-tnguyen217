@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <meta name="msapplication-TileColor" content="#c8112e" />
+    <meta name="theme-color" content="#c8112e" /> -->
+    <meta
+      name="description"
+      content="Plush Toys Store"
+    />
+    <title>plushie</title>
+    
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/update.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <ul class="site-links">
+    
+        <li class="logo"><a href="index.html" ><img src="static/images/logo.png" alt="Plushie Logo on white"></a></li>
+        <li><a href="write.html" class="add-item">Add Item</a></li>
+      
+      </ul>
+    </nav>
+
+    <header class="page-header">
+      <h1>Edit Item</h1>
+    </header>
+ 
+ 
+    <main>
+      <form id="itemForm" class="add-new-item">
+       
+        <div class="item-image form-control">
+          <label for="itemImage">Select image </label>
+          <div id="uploadImage" class="display">
+            <img src="static/images/default.jpg" alt="plushie upload images of your new plushie item">
+          </div>   
+          <input type="file" id="itemImage" style="display:none"  class="select-file"  accept=".jpg, .png, .jpeg, .webp">
+        </div>
+
+        <div class="item-name form-control">
+          <label for="itemName">Item Name</label>         
+           <input id="itemName" type="text" placeholder="Dow Dow" >
+        </div>
+
+        <div class="item-height form-control">
+          <label for="itemHeight">Item Height (cm)</label>         
+           <input id="itemHeight" type="number" placeholder="23">
+        </div>
+
+        <div class="item-price form-control">
+          <label for="itemPrice">Item Price (CAD)</label>         
+           <input id="itemPrice" type="number" placeholder="10">
+        </div>
+        
+        <div class="submit-button form-control">
+          <a href="index.html">Exit</a>
+          <button type="submit">Update</button>
+
+        </div>
+      </form>
+      
+    </main>
+  </body>
+</html>
+ 

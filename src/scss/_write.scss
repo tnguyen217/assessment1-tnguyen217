@@ -1,0 +1,129 @@
+@use './variants/' as *;
+
+// ADD NEW ITEM 
+
+main{
+    padding: 1rem;
+    
+}
+
+.add-new-item{
+    max-width: 400px;
+    margin: 0 auto;
+
+    label {
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: .75rem;
+    }
+
+    input {
+        border: 1px solid $rose-300;
+        box-shadow: none;
+        border-radius: 3px;
+
+        &::placeholder {
+            font-weight: 300;
+            font-style: italic;
+        }
+    }
+}
+
+.display {
+    // margin: 0 auto 1rem;
+    // box-shadow: 0 0 1px 1px  $stone-300;
+    // border: 6px solid white;
+   
+    img {
+        object-fit:fill;
+        width: fit-content;
+        height: auto;
+        display: block;
+        border-radius: 0 3px 3px 3px;
+    }
+}
+
+.item-image {
+
+    label {
+        font-size: .75rem;
+        font-weight: 400;
+        padding: 0.5rem 1.5rem;
+        background-color: $rose-400;
+        color: $rose-50;
+        letter-spacing: .5px;
+        margin: 0;
+        border: 1px solid $rose-400;
+        border-radius: 3px 3px 0 0;
+
+        &:hover {
+            background-color: #fff;
+            color: $rose-400;
+        }
+    }
+    
+}
+
+.image-details{
+    padding: 0 1rem;
+    display:flex;
+    align-items: flex-start;
+    justify-content:center;
+    gap:4rem;;
+    ul{
+        font-size: 12px;
+        font-weight: 200;
+    }
+}
+
+.form-control{
+    margin: 1.5rem 0;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: space-between;
+
+    a,
+    button {
+        text-transform: lowercase;
+        box-shadow: none;
+        width: 50%;
+        display: block;
+        background-color: $rose-300;
+        color: #fff;
+        border: 1px solid $rose-300;
+        border-radius: 0 3px 3px 0;
+        
+
+        &:hover {
+            color: $rose-300;
+            background-color: #fff;
+        }
+
+        &:focus {
+            color: #fff;
+            border: 1px solid $rose-400;
+            background-color: $rose-400;
+            outline: none;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: 400;
+        padding: .5rem 2rem;
+        display: block;
+        color: $rose-300;
+            background-color: #fff;
+
+            border-radius: 3px 0 0 3px;
+
+            &:hover {
+                background-color: $rose-300;
+                color: #fff;
+            }
+    }
+
+}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="286" height="72" viewBox="0 0 286 72">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-logo);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fb7185;
+      }
+
+      .cls-2 {
+        font-size: 88px;
+        font-family: Jost-Thin, Jost;
+        font-weight: 200;
+        letter-spacing: -0.01em;
+      }
+
+      .cls-4 {
+        fill: rgba(255,255,255,0);
+      }
+    </style>
+    <clipPath id="clip-logo">
+      <rect width="286" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="logo" class="cls-1">
+    <rect class="cls-4" width="286" height="72"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-7)">
+      <text id="plushie" class="cls-2" transform="translate(150 67)"><tspan x="-143.044" y="0">PLUSHIE</tspan></text>
+      <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-3" cx="8.5" cy="8.5" r="8.5" transform="translate(10 15)"/>
+    </g>
+  </g>
+</svg>
